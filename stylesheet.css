@@ -1,0 +1,69 @@
+.title {
+  color: #02ccba;
+}
+.main {
+	background: #d9eeec;
+}
+.footer {
+	border-top: 1px solid #eee;
+	font-family: "AvenirNext", sans-serif;
+	background: white;
+}
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.footer-main, .about {
+	padding-bottom: 4px;
+	padding-top: 4px;
+	margin-top: 10px;
+	text-align: center;
+}
+div {
+	display: block;
+}
+.logo {
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.footer-logo {
+	margin-top: 1opx;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 120px;
+	padding-bottom: 25px;
+	height: auto;
+}
+h1 {
+	display: block;
+	font-size: 1.50em;
+	color: #07689f;
+}
+ul, li {
+	list-style: none;
+}
+ul {
+	display: block;
+	padding-inline: 40px;
+	text-align: center;
+}
+li {
+	display: list-item;
+	text-align: center;
+	margin-top:10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 40px;
+	padding-left: auto;
+	padding-right: auto;
+}
+a {
+	text-decoration: none;
+}
+.copyright {
+	font-size: 0.625rem;
+}
