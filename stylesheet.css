@@ -15,11 +15,15 @@
 	padding-right: 20px;
 	padding-left: 20px;
 }
-.footer-main, .about {
-	padding-bottom: 4px;
-	padding-top: 4px;
-	margin-top: 10px;
-	text-align: center;
+.footer-main {
+	background-color: #d2f5e3;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	margin-top: 80px;
 }
 div {
 	display: block;
@@ -43,27 +47,34 @@ h1 {
 	font-size: 1.50em;
 	color: #07689f;
 }
-ul, li {
+a, p {
 	list-style: none;
 }
-ul {
+p {
 	display: block;
-	padding-inline: 40px;
+	padding: 20px;
 	text-align: center;
 }
-li {
-	display: list-item;
-	text-align: center;
+.row .about a {
 	margin-top:10px;
 	margin-bottom: 10px;
-	margin-left: 0px;
+	margin-left: 40px;
 	margin-right: 40px;
-	padding-left: auto;
-	padding-right: auto;
-}
-a {
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 1.8;
 	text-decoration: none;
+	color:  inherit;
+	float: left;
+	text-align: center:
 }
-.copyright {
+
+.row .copyright {
 	font-size: 0.625rem;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 90px;
+	text-align: center;
+	margin-left: 20px;
 }
